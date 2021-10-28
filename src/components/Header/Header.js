@@ -3,12 +3,13 @@ const Header = (props) => {
   return (
     <div className="header">
       <div className="header__logo">
-        <p className="header__logo-title">Vlados games</p>
+        <p className="header__logo-title">Vlados</p>
+        <p className="header__logo-postTitle">games</p>
       </div>
-      <div className="menu">
-        <div className="menu__games">Games</div>
-        <div className="aboutUs">About us</div>
-        <div className="menu__career">Career</div>
+      <div className="header__menu">
+        <div className="header__menu-games">Games</div>
+        <div className="header__menu-aboutUs">About us</div>
+        <div className="header__menu-career">Career</div>
       </div>
     </div>
   );
