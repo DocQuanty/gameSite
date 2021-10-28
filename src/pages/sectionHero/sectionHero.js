@@ -5,6 +5,7 @@ const SectionHero = (props) => {
   return (
     <div className="section-hero">
       <Header />
+      <div className="background"></div>
       <div className="container">
         <div className="section-title">
           BRINGING <span className="mark">JOY</span> THROUGH GAMES
