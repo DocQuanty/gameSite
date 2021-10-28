@@ -7,6 +7,17 @@
   position: relative;
   z-index: 3;
 }
+.background {
+  width: 340px;
+  height: 340px;
+  position: absolute;
+  top: 45%;
+  right: 20%;
+  background-image: url("../../Icons/test.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 5;
+}
 .section-title {
   max-width: 490px;
   text-transform: uppercase;
