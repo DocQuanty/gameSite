@@ -4,12 +4,17 @@
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
   display: flex;
   margin-top: 20px;
+  margin-bottom: 560px;
   justify-content: space-between;
   &__logo {
-    width: 170px;
+    width: 90px;
     min-height: 50px;
     padding-left: 20px;
     font-weight: 700;
+    a {
+      text-decoration: none;
+      // color: black;
+    }
   }
   &__logo-title {
     color: black;
@@ -45,8 +50,24 @@
   }
   &__menu-aboutUs {
     margin-right: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: gray;
+        transition: color 0.5s ease 0s;
+      }
+    }
   }
   &__menu-career {
     margin-right: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: gray;
+        transition: color 0.5s ease 0s;
+      }
+    }
   }
 }
