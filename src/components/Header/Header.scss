@@ -1,7 +1,8 @@
-header {
+.header {
   &__logo {
-    &_title {
-      color: red;
-    }
+    //  background-color: red;
+  }
+  &__logo-title {
+    background-color: red;
   }
 }

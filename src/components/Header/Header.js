@@ -1,9 +1,9 @@
-import s from "./Header.scss";
+import "./Header.scss";
 const Header = (props) => {
   return (
     <div className="header">
       <div className="header__logo">
-        <p className="header__logo_title">Vlados games</p>
+        <p className="header__logo-title">Vlados games</p>
       </div>
       <div className="menu">
         <div className="menu__games">Games</div>
