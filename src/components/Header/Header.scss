@@ -34,6 +34,14 @@
   }
   &__menu-games {
     margin-right: 10px;
+    a {
+      text-decoration: none;
+      color: black;
+      &:hover {
+        color: gray;
+        transition: color 0.5s ease 0s;
+      }
+    }
   }
   &__menu-aboutUs {
     margin-right: 10px;
