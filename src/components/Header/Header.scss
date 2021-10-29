@@ -7,6 +7,10 @@
   margin-bottom: 560px;
   justify-content: space-between;
   max-width: 1000px;
+  @media (max-width: 1000px) {
+    padding: 0 20px;
+  }
+
   &__logo {
     width: 90px;
     min-height: 50px;
