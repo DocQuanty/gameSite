@@ -17,14 +17,19 @@ const sectionGames = (props) => {
             artworks, enjoy.
           </div>
           <div className="game-button">
-            <a href="/">
-              icon
-              <span>App Store</span>
-            </a>
-            <a href="/">
-              icon
-              <span>Google Play</span>
-            </a>
+            <div className="game-button__app">
+              <a href="/">
+                {/* <div className="game-button__svg-wrapper"></div> */}
+                {/* <img src="./src/Icons/Apple.svg" alt="" /> */}
+                <span>App Store</span>
+              </a>
+            </div>
+            <div className="game-button__google">
+              <a href="/">
+                <img src="./src/Icons/GooglePlay.svg" alt="" />
+                <span>Google Play</span>
+              </a>
+            </div>
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>

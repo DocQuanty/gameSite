@@ -1,12 +1,12 @@
 import "./App.scss";
-import Header from "./components/Header/Header";
-import SectionHero from "./pages/sectionHero/sectionHero";
-
+// import Header from "./components/Header/Header";
+// import SectionHero from "./pages/sectionHero/sectionHero";
+import SectionGames from "./pages/sectionGames/sectionGames";
 const App = (props) => {
   return (
     <div className="App">
-      {/* <Header></Header> */}
-      <SectionHero />
+      {/* <SectionHero /> */}
+      <SectionGames></SectionGames>
     </div>
   );
 };
