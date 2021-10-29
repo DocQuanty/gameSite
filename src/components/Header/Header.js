@@ -1,23 +1,26 @@
+import { NavLink } from "react-router-dom";
 import "./Header.scss";
+import Navigation from "../Navigation/Navigation";
+
 const Header = (props) => {
   return (
     <div className="header">
       <div className="header__logo">
-        <a href="/">
+        <NavLink to="/">
           <div className="header__logo-icon"></div>
           <p className="header__logo-title">Vlados</p>
           <p className="header__logo-postTitle">games</p>
-        </a>
+        </NavLink>
       </div>
       <div className="header__menu">
         <div className="header__menu-games">
-          <a href="/">Games</a>
+          <NavLink to="/sectionGames">Games</NavLink>
         </div>
         <div className="header__menu-aboutUs">
-          <a href="/">About Us</a>
+          <NavLink to="/sectionAboutUs">About Us</NavLink>
         </div>
         <div className="header__menu-career">
-          <a href="/">Career</a>
+          <NavLink to="/sectionCareer">Career</NavLink>
         </div>
       </div>
     </div>
