@@ -1,0 +1,44 @@
+.drawer {
+  width: 80%;
+  max-width: 300px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  padding: 20px 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+  z-index: 20;
+  transform: translateX(0px);
+  transition: transform 0.22s ease-in;
+
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li {
+      margin-bottom: 15px;
+    }
+  }
+}
+li {
+  a {
+    color: #363d54;
+    font-size: 30px;
+    text-decoration: none;
+    background-color: #fff;
+    position: relative;
+    padding: 0 20px 10px 20px;
+    transition: opacity 0.3s;
+    &:hover,
+    .active {
+      opacity: 70%;
+    }
+  }
+}
+.drawer.close {
+  transform: translateX(-300px);
+}
+.active {
+  color: orange;
+}
