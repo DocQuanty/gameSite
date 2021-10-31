@@ -6,7 +6,6 @@
   margin-top: 20px;
   margin-bottom: 560px;
   justify-content: space-between;
-  max-width: 1000px;
   @media (max-width: 1000px) {
     padding: 0 20px;
   }
@@ -43,6 +42,9 @@
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-between;
+    @media (max-width: 960px) {
+      display: none;
+    }
   }
   &__menu-games {
     margin-right: 10px;

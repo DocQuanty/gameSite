@@ -1,13 +1,13 @@
 .drawer {
   width: 80%;
-  max-width: 300px;
+  width: 300px;
   position: fixed;
-  left: 0;
+  right: 0px;
   top: 0;
   bottom: 0;
   padding: 20px 10px;
   box-sizing: border-box;
-  background-color: #fff;
+  background-color: rgb(196, 196, 196);
   z-index: 20;
   transform: translateX(0px);
   transition: transform 0.22s ease-in;
@@ -37,7 +37,7 @@ li {
   }
 }
 .drawer.close {
-  transform: translateX(-300px);
+  transform: translateX(300px);
 }
 .active {
   color: orange;

@@ -21,9 +21,8 @@ class Layout extends React.Component {
   render() {
     return (
       <div className="layout">
-        <Drawer onClose={this.menuCloserHandler} isOpen={this.state.menu} />
+        <Drawer onClose={this.MenuCloserHandler} isOpen={this.state.menu} />
         <MenuToggle
-          style={{ width: "100px" }}
           isOpen={this.state.menu}
           onToggle={this.toggleMenuHandler}
         />
