@@ -1,13 +1,15 @@
-import "./MenuToggle.scss";
+import s from "./MenuToggle.module.scss";
 
 const MenuToggle = (props) => {
-  const cls = ["menuToggle", "fa"];
+  const cls = [s.menuToggle, "fa"];
   if (props.isOpen) {
     cls.push("fa-times");
-    cls.push("open");
+    cls.push(s.open);
   } else {
     cls.push("fa-bars");
   }
-  return <p className={cls.join(" ")} onClick={props.onToggle} />;
+
+  return <i onClick={props.onToggle} className={cls.join(" ")} />;
 };
+
 export default MenuToggle;

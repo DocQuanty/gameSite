@@ -4,12 +4,19 @@ import { Route, Switch, Redirect } from "react-router";
 import Layout from "./components/hoc/Layout/Layout";
 
 const App = (props) => {
+  const listenOnWheelEvent = (e) => {
+    if (e) {
+      console.log(e);
+    } else {
+      return null;
+    }
+  };
   return (
     <div className="App">
       <Layout>
         <Switch>
           <Route exact path="/sectionHero">
-            <SectionHero />
+            <SectionHero listenOnWheelEvent={listenOnWheelEvent} />
           </Route>
           <Route exact path="/sectionGames">
             {/* <SectionGames/> */}
