@@ -1,11 +1,14 @@
 import "./sectionGames.scss";
+import Maintitle from "../../components/MainTitle/MainTitle";
+
 const sectionGames = (props) => {
   return (
     <div className="section-games">
       <div className="container">
-        <h2 className="section-title">
+        <Maintitle />
+        {/* <h2 className="section-title">
           OUR <span className="section-title__mark">GAMES</span>
-        </h2>
+        </h2> */}
         <div className="section-game__background"></div>
         <div className="game">
           <div className="game-name">Sorting Beads: Stencil Fill</div>
