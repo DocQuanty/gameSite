@@ -7,9 +7,6 @@ const SectionHero = (props) => {
       <Header />
       <div className="background"></div>
       <div className="container">
-        <div className="section-title">
-          BRINGING <span className="mark">JOY</span> THROUGH GAMES
-        </div>
         <div className="section-subtitle">
           We generate thousands of ideas, test hundreds of them, and publish
           only the very best and most exciting ones.
