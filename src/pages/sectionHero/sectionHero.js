@@ -1,5 +1,7 @@
 import "./sectionHero.scss";
 import Header from "../../components/Header/Header";
+import SubTitle from "../../components/SubTitle/SubTitle";
+import MainTitle from "../../components/MainTitle/MainTitle";
 
 const SectionHero = (props) => {
   return (
@@ -7,8 +9,8 @@ const SectionHero = (props) => {
       <Header />
       <div className="background"></div>
       <div className="container">
-        {/* title */}
-        {/* subtitle */}
+        <MainTitle />
+        <SubTitle />
       </div>
     </div>
   );
