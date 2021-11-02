@@ -1,4 +1,4 @@
-import "./SubTitle";
+import "./SubTitle.scss";
 
 const SubTitle = () => {
   return (
