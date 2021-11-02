@@ -1,16 +1,11 @@
-import { NavLink } from "react-router-dom";
 import "./Header.scss";
+import { NavLink } from "react-router-dom";
+import Logo from "./Logo/Logo";
 
-const Header = (props) => {
+const Header = () => {
   return (
     <div className="header">
-      <div className="header__logo">
-        <NavLink to="/">
-          <div className="header__logo-icon"></div>
-          <p className="header__logo-title">Vlados</p>
-          <p className="header__logo-postTitle">games</p>
-        </NavLink>
-      </div>
+      <Logo />
       <div className="header__menu">
         <div className="header__menu-games">
           <NavLink to="/sectionGames">Games</NavLink>
