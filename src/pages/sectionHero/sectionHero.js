@@ -14,7 +14,11 @@ const SectionHero = (props) => {
             BRINGING <span className="mark">JOY</span> THROUGH GAMES
           </>
         </MainTitle>
-        <SubTitle />
+        <SubTitle marginTop={0} marginBot={0}>
+          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolores
+          corrupti eligendi sequi deleniti, distinctio illo velit quod in id
+          architecto.
+        </SubTitle>
       </div>
     </div>
   );
