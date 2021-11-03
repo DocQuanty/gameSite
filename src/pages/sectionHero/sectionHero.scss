@@ -6,17 +6,31 @@
   margin: 0 auto;
   position: relative;
   z-index: 3;
+  @media (max-width: 1000px) {
+    padding: 0 20px;
+  }
 }
 .background {
   width: 340px;
   height: 340px;
   position: absolute;
   top: 45%;
-  right: 20%;
+  right: 5%;
   background-image: url("../../Icons/test.png");
   background-repeat: no-repeat;
   background-position: center;
   z-index: 5;
+  @media (max-width: 960px) {
+    width: 240px;
+    height: 240px;
+    background-size: cover;
+    top: 38%;
+    right: 30%;
+  }
+  @media (max-width: 480px) {
+    top: 35%;
+    right: 7%;
+  }
 }
 .section-title {
   max-width: 490px;
