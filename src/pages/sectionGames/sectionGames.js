@@ -1,12 +1,12 @@
 import "./sectionGames.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
-
+import SubTitle from "../../components/SubTitle/SubTitle";
 const sectionGames = (props) => {
   return (
     <div className="section-games">
       <div className="container">
         <Maintitle>
-          asdas asdasd <span className="mark">sdsdsdfsdf</span>dgdfh
+          Our&nbsp;<span className="mark">Games</span>
         </Maintitle>
 
         {/* <h2 className="section-title">
@@ -19,8 +19,10 @@ const sectionGames = (props) => {
             <div className="game-rate-star">star 4,6</div>
           </div>
           <div className="game-text">
-            The most satisfying and relaxing puzzle ever! Sort beads, create
-            artworks, enjoy.
+            <SubTitle marginBot={0} marginTop={0}>
+              The most satisfying and relaxing puzzle ever! Sort beads, create
+              artworks, enjoy.
+            </SubTitle>
           </div>
           <div className="game-button">
             <div className="game-button__app">
