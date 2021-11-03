@@ -1,4 +1,5 @@
 import "./App.scss";
+import MainTitle from "./components/MainTitle/MainTitle";
 import SectionHero from "./pages/sectionHero/sectionHero";
 import { Route, Switch, Redirect } from "react-router";
 import Layout from "./components/hoc/Layout/Layout";

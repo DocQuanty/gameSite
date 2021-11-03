@@ -9,7 +9,11 @@ const SectionHero = (props) => {
       <Header />
       <div className="background"></div>
       <div className="container">
-        <MainTitle />
+        <MainTitle>
+          <>
+            BRINGING <span className="mark">JOY</span> THROUGH GAMES
+          </>
+        </MainTitle>
         <SubTitle />
       </div>
     </div>
