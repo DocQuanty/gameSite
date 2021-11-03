@@ -1,12 +1,11 @@
 import "./App.scss";
+import SectionGames from "./pages/sectionGames/sectionGames";
 // import SectionHero from "./pages/sectionHero/sectionHero";
-import ButtonComponent from "./components/ButtonComponent/ButtonComponent";
 
 const App = (props) => {
   return (
     <div className="App">
-      {/* <SectionHero /> */}
-      <ButtonComponent />
+      <SectionGames />
     </div>
   );
 };

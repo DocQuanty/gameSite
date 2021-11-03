@@ -1,6 +1,7 @@
 import "./sectionGames.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
+import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 const sectionGames = (props) => {
   return (
     <div className="section-games">
@@ -25,19 +26,8 @@ const sectionGames = (props) => {
             </SubTitle>
           </div>
           <div className="game-button">
-            <div className="game-button__app">
-              <a href="/">
-                {/* <div className="game-button__svg-wrapper"></div> */}
-                {/* <img src="./src/Icons/Apple.svg" alt="" /> */}
-                <span>App Store</span>
-              </a>
-            </div>
-            <div className="game-button__google">
-              <a href="/">
-                <img src="./src/Icons/GooglePlay.svg" alt="" />
-                <span>Google Play</span>
-              </a>
-            </div>
+            <ButtonComponent />
+            <ButtonComponent />
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>
