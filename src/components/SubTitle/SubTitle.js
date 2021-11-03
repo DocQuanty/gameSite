@@ -1,10 +1,15 @@
 import "./SubTitle.scss";
 
-const SubTitle = () => {
+const SubTitle = (props) => {
   return (
-    <div className="section-subtitle">
-      We generate thousands of ideas, test hundreds of them, and publish only
-      the very best and most exciting ones.
+    <div
+      style={{
+        marginBottom: props.marginBot,
+        marginTop: props.marginTop,
+      }}
+      className="section-subtitle"
+    >
+      {props.children}
     </div>
   );
 };
