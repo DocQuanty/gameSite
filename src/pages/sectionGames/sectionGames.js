@@ -5,7 +5,10 @@ const sectionGames = (props) => {
   return (
     <div className="section-games">
       <div className="container">
-        <Maintitle />
+        <Maintitle>
+          asdas asdasd <span className="mark">sdsdsdfsdf</span>dgdfh
+        </Maintitle>
+
         {/* <h2 className="section-title">
           OUR <span className="section-title__mark">GAMES</span>
         </h2> */}
