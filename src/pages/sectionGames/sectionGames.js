@@ -4,12 +4,13 @@ import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 const sectionGames = (props) => {
   return (
-    <div className="section-games">
+    <div className="section-game">
       <div className="container">
-        <Maintitle>
-          Our&nbsp;<span className="mark">Games</span>
-        </Maintitle>
-
+        <div className="section-game__title">
+          <Maintitle>
+            Our&nbsp;<span className="mark">Games</span>
+          </Maintitle>
+        </div>
         {/* <h2 className="section-title">
           OUR <span className="section-title__mark">GAMES</span>
         </h2> */}
@@ -32,10 +33,10 @@ const sectionGames = (props) => {
           </div>
         </div>
         <div className="section-decor-arrow">arrow down</div>
-        <div className="section-title">
-          <div className="section-title">
-            and <div className="mark">More</div>
-          </div>
+        <div className="and-more">
+          <Maintitle>
+            And&nbsp;<span className="mark">more</span>
+          </Maintitle>
         </div>
         <div className="game-list">
           {/* ===card=== */}
