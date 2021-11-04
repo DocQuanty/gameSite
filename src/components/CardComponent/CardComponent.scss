@@ -1,0 +1,14 @@
+.card-component__main {
+  display: flex;
+  flex-flow: column nowrap;
+}
+.card-component__image {
+  margin-bottom: 35px;
+
+  a {
+    text-decoration: none;
+  }
+}
+.card-component__text {
+  margin-bottom: 10px;
+}
