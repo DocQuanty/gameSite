@@ -1,7 +1,11 @@
 import "./ButtonComponent.scss";
 const Button = (props) => {
+  console.log(props.widthT);
   return (
-    <div className="game-button">
+    <div
+      style={{ width: props.widthT, height: props.heightT }}
+      className="game-button"
+    >
       <a href="/">
         <div className="game-button__name">
           {props.icon ? (

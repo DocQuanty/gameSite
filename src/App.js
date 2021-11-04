@@ -5,7 +5,7 @@ import ButtonComponent from "./components/ButtonComponent/ButtonComponent";
 const App = (props) => {
   return (
     <div className="App">
-      <ButtonComponent icon={true} />
+      <ButtonComponent icon={true} widthT={267} />
     </div>
   );
 };
