@@ -1,5 +1,5 @@
 import "./CardComponent.scss";
-import Bulletimage from "../../Icons/Bullet.jpg";
+import Bulletimage from "../CardComponent/images/bullet.jpg";
 const Card = (props) => {
   return (
     <div className="card-component__main">
