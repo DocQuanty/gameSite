@@ -1,33 +1,42 @@
-.game-button__app {
-  transition: all 0.5s;
+.game-button {
+  transition: all 0.5s ease-in 0s;
+  // max-width: 167px;
+  // max-height: 60px;
   border: 2px solid #17a1e6;
   border-radius: 15px;
-  width: 170px;
-  height: 60px;
   margin-right: 10px;
   &:hover {
     background-color: #17a1e6;
-    border-radius: 15px;
     color: #fff;
   }
-  a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    //  img {
-    //    width: 32px;
-    //    height: 32px;
+  svg {
+    width: 30px;
+    height: 35px;
+    fill: #17a1e6;
+    margin-right: 15px;
   }
-  span {
+
+  a {
     display: block;
-    padding: 20px 20px;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  &__name {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 10px;
+    display: flex;
+    justify-content: center;
     font-weight: 700;
     font-size: 16px;
-    line-height: 20px;
     color: #17a1e6;
     &:hover {
-      display: block;
       color: #fff;
+      svg {
+        fill: #fff;
+      }
     }
   }
 }
