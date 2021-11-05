@@ -6,6 +6,7 @@ const SubTitle = (props) => {
       style={{
         marginBottom: props.marginBot,
         marginTop: props.marginTop,
+        color: props.color,
       }}
       className="section-subtitle"
     >
