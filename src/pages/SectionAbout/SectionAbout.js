@@ -1,4 +1,6 @@
 import "../SectionAbout/SectionAbout.scss";
+// import GreenCube "./images/GreenCub.jpg";
+// import OrangeCube "./images/OrangeCub.jpg";
 import Maintitle from "../../components/MainTitle/MainTitle";
 // import SubTitle from "../../components/SubTitle/SubTitle";
 const sectionAbout = (props) => {
@@ -8,8 +10,9 @@ const sectionAbout = (props) => {
         <div className="section-about__wrapper">
           <div className="section-about__image"></div>
           <div className="section-about__title">
+            {/* Убрать у компоненты ограничение по ширине, накидать кубики */}
             <Maintitle>
-              <span className="mark">DORFER GAMES</span>IS MADE UP OF A
+              <span className="mark">DORFER GAMES&nbsp;</span>IS MADE UP OF A
               GEOGRAPHICALLY DISPERSED TEAM OF STANDOUT PROFESSIONALS WHO CREATE
               HYPER- CASUAL GAMES
             </Maintitle>
@@ -18,7 +21,24 @@ const sectionAbout = (props) => {
             We generate thousands of ideas, test hundreds of them, and publish
             only the very best and most exciting ones.
           </div>
-          <div className="section-about__cards"></div>
+          <div className="section-about__cards">
+            <div className="cards__item">
+              <p>1M+</p>
+              <p>Downloads of our games worldwide</p>
+            </div>
+            <div className="cards__item">
+              <p>36</p>
+              <p>Outstanding games developed</p>
+            </div>
+            <div className="cards__item">
+              <p>25</p>
+              <p>Team members around the world</p>
+            </div>
+            <div className="cards__item">
+              <p>6</p>
+              <p>Different time zones</p>
+            </div>
+          </div>
           <div className="section-about__text-under-cards">
             <p>
               For a long time, we worked as a one- and two-person team, but we

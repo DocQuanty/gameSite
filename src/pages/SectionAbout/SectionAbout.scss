@@ -1,1 +1,70 @@
-
+.section-about {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: normal;
+  &__background {
+    background-color: #17a1e6;
+    color: #fff;
+  }
+  &__wrapper {
+    max-width: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  &__image {
+    background-image: url(./images/GreenCub.jpg);
+    background-image: url(./images/OrangeCub.jpg);
+  }
+  &__cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 820px;
+    margin: 60px 0;
+    :first-child {
+      transform: rotate(5deg);
+    }
+    :nth-child(2) {
+      transform: rotate(-10deg);
+    }
+    :nth-child(3) {
+      transform: rotate(20deg);
+    }
+    :last-child {
+      transform: rotate(-15deg);
+    }
+  }
+}
+.cards__item {
+  background-color: white;
+  box-shadow: 0px 10px 25px #666666;
+  //тень какая-то сомнительная вышла
+  width: 90px;
+  height: 140px;
+  border-radius: 15px;
+  padding: 30px;
+  p {
+    &:first-child {
+      color: #17a1e6;
+      font-weight: bold;
+      font-size: 48px;
+      line-height: 40px;
+      margin: 0px;
+      margin-bottom: 20px;
+      transform: none;
+    }
+    &:last-child {
+      color: black;
+      opacity: 0.5;
+      font-weight: 600;
+      font-size: 14px;
+      line-height: 20px;
+      transform: none;
+    }
+  }
+}
+.section-about__text-under-cards {
+  margin-bottom: 20px;
+}
