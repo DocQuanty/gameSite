@@ -4,10 +4,10 @@ const Button = (props) => {
   return (
     <div
       style={{ width: props.widthT, height: props.heightT }}
-      className="game-button"
+      className="button-game"
     >
       <a href="/">
-        <div className="game-button__name">
+        <div className="button-game__name">
           {props.icon ? (
             <svg
               class="apple-icon"
