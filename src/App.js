@@ -5,7 +5,7 @@ import CardComponent from "./components/CardComponent/CardComponent";
 const App = (props) => {
   return (
     <div className="App">
-      <SectionHero />
+      {/* <SectionHero /> */}
       <CardComponent />
     </div>
   );
