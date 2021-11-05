@@ -1,20 +1,19 @@
 import "../SectionAbout/SectionAbout.scss";
-// import GreenCube "./images/GreenCub.jpg";
-// import OrangeCube "./images/OrangeCub.jpg";
 import Maintitle from "../../components/MainTitle/MainTitle";
-// import SubTitle from "../../components/SubTitle/SubTitle";
 const sectionAbout = (props) => {
   return (
     <div className="section-about">
       <div className="section-about__background">
         <div className="section-about__wrapper">
-          <div className="section-about__image"></div>
+          <div className="section-about__images">
+            <div className="section-about__images_green-cube"></div>
+            <div className="section-about__images_orange-cube"></div>
+          </div>
           <div className="section-about__title">
-            {/* Убрать у компоненты ограничение по ширине, накидать кубики */}
             <Maintitle>
-              <span className="mark">DORFER GAMES&nbsp;</span>IS MADE UP OF A
-              GEOGRAPHICALLY DISPERSED TEAM OF STANDOUT PROFESSIONALS WHO CREATE
-              HYPER- CASUAL GAMES
+              <span style={{ fontWeight: 700 }}>DORFER GAMES</span> IS MADE UP
+              OF A GEOGRAPHICALLY DISPERSED TEAM OF STANDOUT PROFESSIONALS WHO
+              CREATE HYPER- CASUAL GAMES
             </Maintitle>
           </div>
           <div className="section-about__text-above-cards">
