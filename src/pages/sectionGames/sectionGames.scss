@@ -42,7 +42,7 @@
   opacity: 0.5;
 }
 
-.game-button {
+.game-button-wrapper {
   width: 490px;
   display: flex;
   justify-content: space-between;
@@ -53,58 +53,58 @@
   //   }
 }
 
-.game-button__app {
-  border: 2px solid #17a1e6;
-  border-radius: 15px;
-  width: 170px;
-  height: 60px;
-  margin-right: 10px;
-  &:hover {
-    background-color: #17a1e6;
-    border-radius: 15px;
-    color: #fff;
-  }
-  a {
-    text-decoration: none;
-    display: block;
-    text-align: center;
-    //  img {
-    //    width: 32px;
-    //    height: 32px;
-  }
-  span {
-    display: block;
-    padding: 20px 20px;
-    font-weight: 700;
-    font-size: 16px;
-    line-height: 20px;
-    color: #17a1e6;
-    &:hover {
-      display: block;
-      color: #fff;
-    }
-  }
-}
+// .game-button__app {
+//   border: 2px solid #17a1e6;
+//   border-radius: 15px;
+//   width: 170px;
+//   height: 60px;
+//   margin-right: 10px;
+//   &:hover {
+//     background-color: #17a1e6;
+//     border-radius: 15px;
+//     color: #fff;
+//   }
+//   a {
+//     text-decoration: none;
+//     display: block;
+//     text-align: center;
+//  img {
+//    width: 32px;
+//    height: 32px;
+// }
+// span {
+//   display: block;
+//   padding: 20px 20px;
+//   font-weight: 700;
+//   font-size: 16px;
+//   line-height: 20px;
+//   color: #17a1e6;
+//   &:hover {
+//     display: block;
+//     color: #fff;
+//   }
+// }
+// }
 
-.game-button__google {
-  outline: 2px solid #17a1e6;
-  border-radius: 15px;
-  width: 170px;
-  height: 60px;
-  margin-right: 10px;
-  a {
-    text-decoration: none;
-    display: block;
-    padding: 20px 20px;
-    text-align: center;
-    span {
-      font-weight: 700;
-      font-size: 16px;
-      line-height: 20px;
-      color: #17a1e6;
-    }
-  }
-}
+// .game-button__google {
+//   outline: 2px solid #17a1e6;
+//   border-radius: 15px;
+//   width: 170px;
+//   height: 60px;
+//   margin-right: 10px;
+//   a {
+//     text-decoration: none;
+//     display: block;
+//     padding: 20px 20px;
+//     text-align: center;
+//     span {
+//       font-weight: 700;
+//       font-size: 16px;
+//       line-height: 20px;
+//       color: #17a1e6;
+//     }
+//   }
+// }
 .game-button-text {
   align-self: center;
   opacity: 0.5;

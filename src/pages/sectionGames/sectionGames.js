@@ -2,6 +2,7 @@ import "./sectionGames.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
+import longArrow from "./Icons/longArrow.png";
 const sectionGames = (props) => {
   return (
     <div className="section-game">
@@ -26,13 +27,15 @@ const sectionGames = (props) => {
               artworks, enjoy.
             </SubTitle>
           </div>
-          <div className="game-button">
-            <ButtonComponent />
-            <ButtonComponent />
+          <div className="game-button-wrapper">
+            <ButtonComponent widthT={170} heightT={60} />
+            <ButtonComponent widthT={170} heightT={60} />
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>
-        <div className="section-decor-arrow">arrow down</div>
+        <div className="section-decor-arrow">
+          <longArrow />
+        </div>
         <div className="and-more">
           <Maintitle>
             And&nbsp;<span className="mark">more</span>
