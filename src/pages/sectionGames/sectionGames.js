@@ -3,6 +3,7 @@ import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
+import CardComponent from "./Icons/BubblePhone.JPG";
 const sectionGames = (props) => {
   return (
     <div className="section-game">
@@ -15,7 +16,9 @@ const sectionGames = (props) => {
         {/* <h2 className="section-title">
           OUR <span className="section-title__mark">GAMES</span>
         </h2> */}
-        <div className="section-game__background"></div>
+        <div className="section-game__background">
+          <img src={CardComponent} alt="" />
+        </div>
         <div className="game">
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
@@ -28,13 +31,13 @@ const sectionGames = (props) => {
             </SubTitle>
           </div>
           <div className="game-button-wrapper">
-            <ButtonComponent widthT={170} heightT={60} />
-            <ButtonComponent widthT={170} heightT={60} />
+            <ButtonComponent widthT={170} heightT={60} icon={true} />
+            <ButtonComponent widthT={170} heightT={60} icon={false} />
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>
         <div className="section-decor-arrow">
-          <longArrow />
+          <img src={longArrow} alt="нема" />
         </div>
         <div className="and-more">
           <Maintitle>
