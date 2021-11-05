@@ -1,7 +1,7 @@
 import "./MainTitle.scss";
 const Maintitle = (props) => {
   return (
-    <div style={{ color: props.color }} className="section-title">
+    <div style={{ color: props.color }} className="title-main">
       {props.children}
     </div>
   );
