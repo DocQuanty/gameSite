@@ -19,7 +19,7 @@
   }
   &__images {
     @media (max-width: 960px) {
-      display: none;
+      // display: none;
       //Как масштабировать кубы, а то они либо множатся, либо делятся
       // И как привязать к карточке
     }
@@ -30,6 +30,12 @@
       top: 90px;
       right: 300px;
       position: absolute;
+      @media (max-width: 960px) {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 70px;
+        height: 70px;
+      }
     }
     &_orange-cube {
       background-image: url("./images/OrangeCub.jpg");
@@ -38,6 +44,8 @@
       position: absolute;
       top: 120px;
       right: 50px;
+    }
+    &__title {
     }
   }
   &__cards {
