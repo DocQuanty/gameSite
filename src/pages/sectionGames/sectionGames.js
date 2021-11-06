@@ -17,9 +17,10 @@ const sectionGames = (props) => {
         </div>
 
         <div className="section-game__background">
-          <img src={BackGround} alt="" />
+          {/* <img src={BackGround} alt="" /> */}
         </div>
         <div className="game">
+          <div className="game__background"></div>
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
             <div className="game-rate-star">star 4,6</div>
@@ -31,9 +32,11 @@ const sectionGames = (props) => {
             </SubTitle>
           </div>
           <div className="game-button-wrapper">
-            <ButtonComponent type={"big"} icon={"app"}>
-              App Store
-            </ButtonComponent>
+            <div className="game-button-wrapper__wrapper-btn">
+              <ButtonComponent type={"big"} icon={"app"}>
+                App Store
+              </ButtonComponent>
+            </div>
             <ButtonComponent type={"big"} icon={"noapp"}>
               Google Play
             </ButtonComponent>
