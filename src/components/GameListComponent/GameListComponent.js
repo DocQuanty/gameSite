@@ -50,7 +50,7 @@ class GameListComponent extends React.Component {
           img={el.img}
           describe={el.describe}
           btnInfo={el.btnInfo}
-          link={el.link}
+          btnLink={el.link}
         />
       );
     });
