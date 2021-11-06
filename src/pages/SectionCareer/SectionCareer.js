@@ -1,7 +1,7 @@
 import "../SectionCareer/SectionCareer.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
-// import ArrowRight from "./icons/arrow-right.svg";
+
 const SectionCareer = (props) => {
   return (
     <div className="section-career">
