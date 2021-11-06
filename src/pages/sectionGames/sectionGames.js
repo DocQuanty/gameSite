@@ -52,33 +52,7 @@ const sectionGames = (props) => {
           </Maintitle>
         </div>
         <div className="game-list">
-          {/* ===card=== */}
           <CardComponent />
-          {/* <div className="game-item">
-            <div className="game-item-img">
-              <img src="#" alt="#" />
-            </div>
-            <div className="game-item-name">Bullet Collect 3D</div>
-            <div className="game-item-button">
-              <a href="/">
-                icon
-                <span className="btn-text">App Store</span>
-              </a>
-            </div>
-          </div> */}
-          {/* ===card=== */}
-          {/* <div className="game-item">
-            <div className="game-item-img">
-              <img src="#" alt="#" />
-            </div>
-            <div className="game-item-name">Bullet Collect 3D</div>
-            <div className="game-item-button">
-              <a href="/">
-                icon
-                <span className="btn-text">App Store</span>
-              </a>
-            </div>
-          </div> */}
         </div>
       </div>
     </div>
