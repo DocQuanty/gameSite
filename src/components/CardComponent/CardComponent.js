@@ -5,13 +5,11 @@ const Card = (props) => {
   return (
     <div className="card-component">
       <div className="card-component__image">
-        <a href="/">
-          <img src={props.img} alt="изображение не отображено" />
-        </a>
+        <img src={props.img} alt="изображение не отображено" />
       </div>
       <div className="card-component__text-card">{props.describe}</div>
       <div className="card-component__button">
-        <ButtonComponent type={"small"} icon={"app"}>
+        <ButtonComponent type={"small"} link={props.btnLink} icon={"app"}>
           {props.btnInfo}
         </ButtonComponent>
       </div>
