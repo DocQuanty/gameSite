@@ -1,11 +1,13 @@
 import "./App.scss";
 import MainTitle from "./components/MainTitle/MainTitle";
-import SectionHero from "./pages/sectionHero/sectionHero";
+import SectionCareer from "./pages/SectionCareer/SectionCareer";
+// import SectionHero from "./pages/sectionHero/sectionHero";
 
 const App = (props) => {
   return (
     <div className="App">
-      <SectionHero />
+      {/* <SectionHero /> */}
+      <SectionCareer />
     </div>
   );
 };
