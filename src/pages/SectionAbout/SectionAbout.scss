@@ -16,12 +16,13 @@
   }
   &__text-above-cards {
     max-width: 490px;
+    @media (max-width: 960px) {
+      margin-bottom: 60px;
+    }
   }
   &__images {
-    @media (max-width: 960px) {
+    @media (max-width: 420px) {
       // display: none;
-      //Как масштабировать кубы, а то они либо множатся, либо делятся
-      // И как привязать к карточке
     }
     &_green-cube {
       background-image: url("./images/GreenCub.jpg");
@@ -35,6 +36,21 @@
         background-size: contain;
         width: 70px;
         height: 70px;
+        top: 175px;
+        right: 220px;
+        @media (max-width: 590px) {
+          top: 220px;
+        }
+        @media (max-width: 440px) {
+          top: 250px;
+          right: 180px;
+        }
+        @media (max-width: 420px) {
+          top: 270px;
+        }
+        @media (max-width: 360px) {
+          display: none;
+        }
       }
     }
     &_orange-cube {
@@ -44,8 +60,29 @@
       position: absolute;
       top: 120px;
       right: 50px;
-    }
-    &__title {
+      @media (max-width: 960px) {
+        background-repeat: no-repeat;
+        background-size: contain;
+        width: 90px;
+        height: 90px;
+        top: 170px;
+        right: 130px;
+      }
+      @media (max-width: 590px) {
+        top: 210px;
+        right: 85px;
+      }
+      @media (max-width: 440px) {
+        width: 70px;
+        height: 70px;
+        top: 260px;
+      }
+      @media (max-width: 420px) {
+        top: 270px;
+      }
+      @media (max-width: 360px) {
+        display: none;
+      }
     }
   }
   &__cards {
