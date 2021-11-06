@@ -14,15 +14,15 @@ class GameListComponent extends React.Component {
     ],
   };
   render() {
-    debugger;
     const CardItem = this.state.Card.map((el, i) => {
-      <CardComponent
-        key={i}
-        img={el.img}
-        describe={el.describe}
-        btnInfo={el.btnInfo}
-      />;
-      debugger;
+      return (
+        <CardComponent
+          key={i}
+          img={el.img}
+          describe={el.describe}
+          btnInfo={el.btnInfo}
+        />
+      );
     });
 
     return (
