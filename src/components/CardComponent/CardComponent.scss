@@ -6,6 +6,12 @@
     display: inline-block;
     display: flex;
     justify-content: center;
+    img {
+      max-width: 100%;
+      width: 150px;
+      height: 150px;
+      border-radius: 15px;
+    }
   }
   &__text-card {
     font-weight: 500;
