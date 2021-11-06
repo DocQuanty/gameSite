@@ -3,7 +3,7 @@ import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
-import "./Icons/BubblePhone.JPG";
+import BackGround from "./Icons/BubblePhone.JPG";
 import CardComponent from "../../components/CardComponent/CardComponent";
 
 const sectionGames = (props) => {
@@ -19,7 +19,7 @@ const sectionGames = (props) => {
           OUR <span className="section-title__mark">GAMES</span>
         </h2> */}
         <div className="section-game__background">
-          <img src={CardComponent} alt="" />
+          <img src={BackGround} alt="" />
         </div>
         <div className="game">
           <div className="game-name">Sorting Beads: Stencil Fill</div>
@@ -34,11 +34,12 @@ const sectionGames = (props) => {
           </div>
           <div className="game-button-wrapper">
             <ButtonComponent type={"big"} icon={"app"}>
-              AppStore
+              App Store
             </ButtonComponent>
             <ButtonComponent type={"big"} icon={"noapp"}>
-              AppStore
+              Google Play
             </ButtonComponent>
+
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>
@@ -52,7 +53,8 @@ const sectionGames = (props) => {
         </div>
         <div className="game-list">
           {/* ===card=== */}
-          <div className="game-item">
+          <CardComponent />
+          {/* <div className="game-item">
             <div className="game-item-img">
               <img src="#" alt="#" />
             </div>
@@ -63,9 +65,8 @@ const sectionGames = (props) => {
                 <span className="btn-text">App Store</span>
               </a>
             </div>
-          </div>
+          </div> */}
           {/* ===card=== */}
-          <CardComponent>awdawd</CardComponent>
           {/* <div className="game-item">
             <div className="game-item-img">
               <img src="#" alt="#" />
