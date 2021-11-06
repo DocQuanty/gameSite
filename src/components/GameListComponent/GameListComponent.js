@@ -14,16 +14,23 @@ class GameListComponent extends React.Component {
     ],
   };
   render() {
-    this.state.Card.map((el, i) => {
+    debugger;
+    const CardItem = this.state.Card.map((el, i) => {
       <CardComponent
         key={i}
         img={el.img}
         describe={el.describe}
         btnInfo={el.btnInfo}
       />;
+      debugger;
     });
 
-    return <div className="list-game"></div>;
+    return (
+      <div className="list-game">
+        {CardItem}
+        {/* <CardComponent /> */}
+      </div>
+    );
   }
 }
 export default GameListComponent;
