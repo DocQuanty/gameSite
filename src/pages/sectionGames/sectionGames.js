@@ -4,7 +4,7 @@ import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
 import BackGround from "./Icons/BubblePhone.JPG";
-import CardComponent from "../../components/CardComponent/CardComponent";
+import GameListComponent from "../../components/GameListComponent/GameListComponent";
 
 const sectionGames = (props) => {
   return (
@@ -15,9 +15,7 @@ const sectionGames = (props) => {
             Our&nbsp;<span className="mark">Games</span>
           </Maintitle>
         </div>
-        {/* <h2 className="section-title">
-          OUR <span className="section-title__mark">GAMES</span>
-        </h2> */}
+
         <div className="section-game__background">
           <img src={BackGround} alt="" />
         </div>
@@ -52,7 +50,7 @@ const sectionGames = (props) => {
           </Maintitle>
         </div>
         <div className="game-list">
-          <CardComponent />
+          <GameListComponent />
         </div>
       </div>
     </div>
