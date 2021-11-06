@@ -11,12 +11,12 @@ const Card = (props) => {
       </div>
       <div className="card-component__text-card">Bullet Collect 3D</div>
       <div className="card-component__button">
-        <ButtonComponent widthT={119} heightT={44} />
+        <ButtonComponent type={"small"} icon={"app"}>
+          AppStore
+        </ButtonComponent>
       </div>
     </div>
   );
 };
-// Последняя строчка так пишется?!
-//Вставка кнопки, если её ещё нет
-//Вставка картинки
+
 export default Card;
