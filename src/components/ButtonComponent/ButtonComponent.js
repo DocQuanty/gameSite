@@ -4,7 +4,7 @@ const Button = (props) => {
   if (props.type === "big") {
     icon = (
       <div style={{ width: "167px" }} className="button-game">
-        <a href="/">
+        <a href={props.link}>
           <div className="button-game__name">
             {props.icon === "app" ? (
               <svg
@@ -40,7 +40,7 @@ const Button = (props) => {
         style={{ width: "119px", minHeight: "44px" }}
         className="button-game"
       >
-        <a href="/">
+        <a href={props.link}>
           <div className="button-game__name" style={{ padding: "10px" }}>
             {props.icon === "app" ? (
               <svg
