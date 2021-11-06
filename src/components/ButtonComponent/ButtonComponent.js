@@ -18,9 +18,6 @@ const Button = (props) => {
               </svg>
             ) : (
               <svg
-                style={{
-                  paddingTop: "10px",
-                }}
                 class="apple-icon"
                 width="26"
                 height="35"
