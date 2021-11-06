@@ -3,7 +3,9 @@ import Maintitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
-import CardComponent from "./Icons/BubblePhone.JPG";
+import "./Icons/BubblePhone.JPG";
+import CardComponent from "../../components/CardComponent/CardComponent";
+
 const sectionGames = (props) => {
   return (
     <div className="section-game">
@@ -31,8 +33,12 @@ const sectionGames = (props) => {
             </SubTitle>
           </div>
           <div className="game-button-wrapper">
-            <ButtonComponent widthT={170} heightT={60} icon={true} />
-            <ButtonComponent widthT={170} heightT={60} icon={false} />
+            <ButtonComponent type={"big"} icon={"app"}>
+              AppStore
+            </ButtonComponent>
+            <ButtonComponent type={"big"} icon={"noapp"}>
+              AppStore
+            </ButtonComponent>
             <div className="game-button-text">1M + downloads</div>
           </div>
         </div>
@@ -59,7 +65,8 @@ const sectionGames = (props) => {
             </div>
           </div>
           {/* ===card=== */}
-          <div className="game-item">
+          <CardComponent>awdawd</CardComponent>
+          {/* <div className="game-item">
             <div className="game-item-img">
               <img src="#" alt="#" />
             </div>
@@ -70,7 +77,7 @@ const sectionGames = (props) => {
                 <span className="btn-text">App Store</span>
               </a>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </div>
