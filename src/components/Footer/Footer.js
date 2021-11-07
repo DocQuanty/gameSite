@@ -19,7 +19,9 @@ const Footer = (props) => {
             </div>
             <div className="container-flex__icons">
               <div className="icons__apple">
-                {/* <ButtonComponent>&nbsp;</ButtonComponent> */}
+                <ButtonComponent type={"big"} icon={"app"}>
+                  App Store
+                </ButtonComponent>
               </div>
               <div className="icons__information"></div>
               <div className="icons__facebook"></div>
