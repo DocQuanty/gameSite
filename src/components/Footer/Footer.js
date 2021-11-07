@@ -1,5 +1,6 @@
 import "./Footer.scss";
 import ButtonComponent from "../ButtonComponent/ButtonComponent";
+import Information from "./Icons/Information.svg";
 const Footer = (props) => {
   return (
     <>
@@ -19,11 +20,17 @@ const Footer = (props) => {
             </div>
             <div className="container-flex__icons">
               <div className="icons__apple">
-                <ButtonComponent type={"big"} icon={"app"}>
+                {/* <ButtonComponent
+                  style={{ color: rgb(255, 255, 255) }}
+                  type={"big"}
+                  icon={"app"}
+                >
                   App Store
-                </ButtonComponent>
+                </ButtonComponent> */}
               </div>
-              <div className="icons__information"></div>
+              <div className="icons__information">
+                <img src={Information} alt="" />
+              </div>
               <div className="icons__facebook"></div>
             </div>
           </div>
