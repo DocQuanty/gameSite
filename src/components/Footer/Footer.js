@@ -1,4 +1,5 @@
 import "./Footer.scss";
+import ButtonComponent from "../ButtonComponent/ButtonComponent";
 const Footer = (props) => {
   return (
     <>
@@ -17,7 +18,9 @@ const Footer = (props) => {
               <p>VAT Number: EE102288380</p>
             </div>
             <div className="container-flex__icons">
-              <div className="icons__apple"></div>
+              <div className="icons__apple">
+                {/* <ButtonComponent>&nbsp;</ButtonComponent> */}
+              </div>
               <div className="icons__information"></div>
               <div className="icons__facebook"></div>
             </div>
