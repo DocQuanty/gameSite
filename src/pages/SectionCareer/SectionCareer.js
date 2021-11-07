@@ -15,14 +15,18 @@ const SectionCareer = (props) => {
           <div className="section-career__subtitle">REMOTE</div>
           <div className="section-career__generalist">
             <div className="section-career__generalist_text">3D Generalist</div>
-            <div className="section-career__generalist_develop">Develop</div>
+            <div className="section-career__generalist_develop">
+              <a href="/">Develop</a>
+            </div>
           </div>
           {/* <div className="section-career__generalist_line"></div> */}
           <div className="section-career__middle">
             <div className="section-career__middle_text">
               Middle Unity 3D Developer
             </div>
-            <div className="section-career__middle_develop">Develop</div>
+            <div className="section-career__middle_develop">
+              <a href="/">Develop</a>
+            </div>
           </div>
           {/* <div className="section-career__middle_line"></div> */}
         </div>
