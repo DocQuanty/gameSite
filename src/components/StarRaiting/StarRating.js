@@ -1,4 +1,4 @@
-import "./StarReiting.scss";
+import "./StarRaiting.scss";
 import React, { useState } from "react";
 
 const StarRating = (props) => {
