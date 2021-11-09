@@ -25,7 +25,8 @@ const sectionGames = (props) => {
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
             <div className="game-rate-star">
-              <StartRating />
+              <StartRating setRating={5} setHover={4} />
+              <span>4.0</span>
             </div>
           </div>
           <div className="game-text">
