@@ -5,6 +5,7 @@ import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
 import BackGround from "./Icons/BubblePhone.JPG";
 import GameListComponent from "../../components/GameListComponent/GameListComponent";
+import StartRating from "../../components/StarRaiting/StarRating";
 
 const sectionGames = (props) => {
   return (
@@ -23,7 +24,9 @@ const sectionGames = (props) => {
           <div className="game__background"></div>
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
-            <div className="game-rate-star">star 4,6</div>
+            <div className="game-rate-star">
+              <StartRating />
+            </div>
           </div>
           <div className="game-text">
             <SubTitle marginBot={0} marginTop={0}>
