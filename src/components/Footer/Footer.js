@@ -1,7 +1,7 @@
 import "./Footer.scss";
-import ButtonComponent from "../ButtonComponent/ButtonComponent";
+// import ButtonComponent from "../ButtonComponent/ButtonComponent";
 // import Information from "./Icons/Information.svg";
-import Facebook from "./Icons/facebook.svg";
+// import Facebook from "./Icons/facebook.svg";
 const Footer = (props) => {
   return (
     <>
@@ -20,14 +20,14 @@ const Footer = (props) => {
               <p>VAT Number: EE102288380</p>
             </div>
             <div className="container-flex__icons">
-              <div className="icons__apple">
-                {/* <ButtonComponent
-                  style={{ color: rgb(255, 255, 255) }}
+              {/* <div className="icons__apple">
+                <ButtonComponent
+                  style={{ color: "rgb(255, 255, 255)" }}
                   type={"big"}
                   icon={"app"}
                 >
                   App Store
-                </ButtonComponent> */}
+                </ButtonComponent>
               </div>
               <div className="icons__information">
                 <svg
@@ -42,23 +42,19 @@ const Footer = (props) => {
               </div>
               <div className="icons__facebook">
                 <img src={Facebook} alt="" />
-              </div>
+              </div> */}
             </div>
           </div>
           <div className="footer__container-subtext-flex">
-            <div className="container-subtext-flex__year">
+            <div className="footer__container-subtext-flex_year">
               © Dorfer Games, 2021
             </div>
-            <div className="container-subtext-flex__links">
-              <p>
-                <a href="/">Contact Us</a>
-              </p>
-              <p>
-                <a href="/">Privacy Policy</a>
-              </p>
-              <p>
-                <a href="/">Terms</a>
-              </p>
+            <div className="footer__container-subtext-flex_links">
+              <a href="/">Contact Us</a>
+
+              <a href="/">Privacy Policy</a>
+
+              <a href="/">Terms</a>
             </div>
           </div>
         </div>

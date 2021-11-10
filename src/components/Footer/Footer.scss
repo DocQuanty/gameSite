@@ -36,20 +36,43 @@
     }
   }
   &__title {
+    color: rgba(255, 255, 255, 0.5);
     p {
       margin: 0;
     }
   }
 }
 
-.icons {
-  &__apple {
+.container-flex__icons {
+  border: 1px solid white;
+  width: 343px;
+  height: 60px;
+  // &__apple {
+  // }
+  // &__information {
+  //   svg {
+  //     fill: red;
+  //     width: 24px;
+  //     height: 24px;
+  //   }
+  // }
+}
+
+.footer__container-subtext-flex {
+  border-top: 1px solid rgba(255, 255, 255, 0.05);
+  color: rgba(255, 255, 255, 0.5);
+  padding: 20px 0;
+  display: flex;
+  justify-content: space-between;
+  &_year {
+    color: rgba(255, 255, 255, 0.5);
   }
-  &__information {
-    svg {
-      fill: red;
-      width: 24px;
-      height: 24px;
+  &_links {
+    display: flex;
+    a {
+      color: rgba(255, 255, 255, 0.5);
+      margin-left: 15px;
     }
+    color: rgba(255, 255, 255, 0.5);
   }
 }
