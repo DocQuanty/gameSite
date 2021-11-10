@@ -17,9 +17,7 @@ const sectionGames = (props) => {
           </Maintitle>
         </div>
 
-        <div className="section-game__background">
-          {/* <img src={BackGround} alt="" /> */}
-        </div>
+        <div className="section-game__background"></div>
         <div className="game">
           <div className="game__background"></div>
           <div className="game-name">Sorting Beads: Stencil Fill</div>

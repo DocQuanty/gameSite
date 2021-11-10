@@ -9,6 +9,10 @@
   @media (max-width: 900px) {
     padding: 0 20px;
   }
+
+  &__title {
+    margin-bottom: 400px;
+  }
 }
 .container {
   margin: 0 174px;
@@ -19,36 +23,22 @@
     margin: 0;
   }
 }
-.section-game__title {
-  margin-bottom: 400px;
-}
+
 .section-title {
   margin-bottom: 330px;
+  padding-top: 120px;
+  @media (max-width: 1020px) {
+    padding-top: 60px;
+  }
+  @media (max-width: 460px) {
+    padding-top: 60px;
+  }
   &__mark {
     font-weight: 800;
     color: #17a1e6;
   }
 }
 
-.section-game__background {
-  // position: relative;
-
-  // img {
-  //   position: absolute;
-  //   @media (max-width: 1200px) {
-  //     left: 366px;
-  //   }
-  //   @media (max-width: 1100px) {
-  //     width: 300px;
-  //     height: 300px;
-  //     left: 10px;
-  //     top: -320px;
-  //   }
-
-  //   top: -260px;
-  //   left: 476px;
-  // }
-}
 .game {
   position: relative;
   z-index: 1;
@@ -63,7 +53,14 @@
     background-size: contain;
     background-repeat: no-repeat;
     z-index: -1;
-    @media (max-width: 1420px) {
+    @media (max-width: 1460px) {
+      top: -130%;
+      right: -500px;
+      left: 200px;
+      width: 500px;
+      height: 550px;
+    }
+    @media (max-width: 1020px) {
       width: 350px;
       height: 360px;
       background-size: cover;
@@ -129,6 +126,9 @@
 }
 .section-decor-arrow {
   margin-bottom: 70px;
+  @media (max-width: 960px) {
+    margin-bottom: 0;
+  }
   img {
     opacity: 0.3;
     @media (max-width: 960px) {
