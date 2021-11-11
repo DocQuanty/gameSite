@@ -2,16 +2,16 @@
   font-weight: 600;
   font-size: 14px;
   line-height: normal;
-
   &__background {
     background-color: #17a1e6;
     height: 100vh;
     color: #fff;
-    @media (max-width: 799px) {
+    @media (max-width: 800px) {
       height: 100%;
     }
   }
   &__wrapper {
+    background-color: #17a1e6;
     max-width: 1000px;
     padding: 50px 0;
     margin: 0 auto;
@@ -38,11 +38,11 @@
     @media (max-width: 960px) {
       margin-bottom: 60px;
     }
+    @media (max-width: 830px) {
+      margin-bottom: 60px;
+    }
   }
   &__images {
-    @media (max-width: 420px) {
-      // display: none;
-    }
     &_green-cube {
       background-image: url("./images/GreenCub.jpg");
       width: 125px;
@@ -55,20 +55,15 @@
         background-size: contain;
         width: 70px;
         height: 70px;
-        top: 275px;
-        right: 320px;
-        @media (max-width: 590px) {
-          top: 350px;
+        top: 180px;
+        right: 300px;
+        @media (max-width: 830px) {
+          top: 290px;
+          right: 140px;
         }
-        @media (max-width: 440px) {
-          top: 250px;
-          right: 180px;
-        }
-        @media (max-width: 420px) {
-          top: 270px;
-        }
-        @media (max-width: 360px) {
-          display: none;
+        @media (max-width: 330px) {
+          top: 400px;
+          right: 190px;
         }
       }
     }
@@ -84,35 +79,29 @@
         background-size: contain;
         width: 90px;
         height: 90px;
+        top: 170px;
+        right: 190px;
+      }
+      @media (max-width: 830px) {
         top: 270px;
-        right: 130px;
+        right: 45px;
       }
-      @media (max-width: 590px) {
-        top: 300px;
-        right: 85px;
-      }
-      @media (max-width: 440px) {
-        width: 70px;
-        height: 70px;
-        top: 260px;
-      }
-      @media (max-width: 420px) {
-        top: 270px;
-      }
-      @media (max-width: 360px) {
-        display: none;
+      @media (max-width: 330px) {
+        top: 380px;
+        right: 90px;
       }
     }
   }
-
   &__cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    max-width: 903px;
+    justify-content: space-around;
+    max-width: 900px;
+    margin-top: 120px;
     @media (max-width: 830px) {
       flex-wrap: wrap;
       margin: 0 auto;
+      margin-top: 120px;
     }
     @media (max-width: 410px) {
       align-items: center;
@@ -179,13 +168,6 @@
     margin-bottom: 50px !important;
     min-height: 150px;
   }
-
-  @media (max-width: 590px) {
-    margin: 0 auto;
-  }
-  @media (max-width: 410px) {
-  }
-
   p {
     &:first-child {
       color: #17a1e6;
