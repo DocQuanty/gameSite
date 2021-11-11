@@ -1,6 +1,6 @@
 import "../SectionCareer/SectionCareer.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
-import SubTitle from "../../components/SubTitle/SubTitle";
+import Footer from "../../components/Footer/Footer";
 
 const SectionCareer = (props) => {
   return (
@@ -19,7 +19,6 @@ const SectionCareer = (props) => {
               <a href="/">Develop</a>
             </div>
           </div>
-          {/* <div className="section-career__generalist_line"></div> */}
           <div className="section-career__middle">
             <div className="section-career__middle_text">
               Middle Unity 3D Developer
@@ -28,9 +27,9 @@ const SectionCareer = (props) => {
               <a href="/">Develop</a>
             </div>
           </div>
-          {/* <div className="section-career__middle_line"></div> */}
         </div>
       </div>
+      <Footer />
     </div>
   );
 };

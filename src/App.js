@@ -1,13 +1,13 @@
 import "./App.scss";
-import MainTitle from "./components/MainTitle/MainTitle";
+import Footer from "./components/Footer/Footer";
 import SectionCareer from "./pages/SectionCareer/SectionCareer";
-// import SectionHero from "./pages/sectionHero/sectionHero";
-
+// import MainTitle from "./components/MainTitle/MainTitle";
+// import SubTitle from "./components/SubTitle/SubTitle";
 const App = (props) => {
   return (
     <div className="App">
+      <SectionCareer></SectionCareer>
       {/* <SectionHero /> */}
-      <SectionCareer />
     </div>
   );
 };
