@@ -95,7 +95,7 @@
   &__cards {
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     max-width: 900px;
     margin-top: 120px;
     @media (max-width: 830px) {
