@@ -1,7 +1,11 @@
+.test {
+  padding: 0 200px;
+}
 .card-component {
-  width: 155px;
+  min-width: 155px;
   height: 294px;
   padding: 10px;
+
   &__image {
     display: inline-block;
     display: flex;
