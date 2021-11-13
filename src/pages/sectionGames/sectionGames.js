@@ -1,5 +1,5 @@
 import "./sectionGames.scss";
-import Maintitle from "../../components/MainTitle/MainTitle";
+import MainTitle from "../../components/MainTitle/MainTitle";
 import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
@@ -39,9 +39,9 @@ const sectionGames = (props) => {
     <div className="section-game">
       <div className="container">
         <div className="section-game__title">
-          <Maintitle>
+          <MainTitle>
             Our&nbsp;<span className="mark">Games</span>
-          </Maintitle>
+          </MainTitle>
         </div>
 
         <div className="section-game__background"></div>
@@ -86,9 +86,9 @@ const sectionGames = (props) => {
           <img src={longArrow} alt="нема" />
         </div>
         <div className="and-more">
-          <Maintitle>
+          <MainTitle>
             And&nbsp;<span className="mark">more</span>
-          </Maintitle>
+          </MainTitle>
         </div>
         <div className="game-list">
           <GameListComponent />
