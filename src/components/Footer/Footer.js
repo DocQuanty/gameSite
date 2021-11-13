@@ -48,60 +48,62 @@ const Footer = (props) => {
   );
   return (
     <>
-      <div className="footer__wraper">
-        <div className="footer__background">
-          <div className="footer__container-flex">
-            <div className="container-flex__logo">
-              <a href="/">
-                <p>Vlados</p>
-                <p>Games</p>
-              </a>
+      <div className="footer">
+        <div className="footer__wraper">
+          <div className="footer__background">
+            <div className="footer__container-flex">
+              <div className="container-flex__logo">
+                <a href="/">
+                  <p>Vlados</p>
+                  <p>Games</p>
+                </a>
+              </div>
+              <div className="container-flex__title">
+                <p>Dorfer Games OÜ, Poznyaki, Kyiv, 02068, Ukraine</p>
+                <p>Reg. No.: 14854266</p>
+                <p>VAT Number: EE102288380</p>
+              </div>
+              <div className="container-flex__icons">
+                <ButtonComponent
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                  }}
+                  type={"big"}
+                  icon={AppleIcon}
+                  mode={"dark"}
+                  widthBtn={170}
+                >
+                  App Store
+                </ButtonComponent>
+                <ButtonComponent
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                  }}
+                  type={"big"}
+                  icon={Linkedin}
+                  mode={"dark"}
+                  widthBtn={76}
+                />
+                <ButtonComponent
+                  style={{
+                    color: "rgb(255, 255, 255)",
+                  }}
+                  type={"big"}
+                  icon={Facebook}
+                  mode={"dark"}
+                  widthBtn={60}
+                />
+              </div>
             </div>
-            <div className="container-flex__title">
-              <p>Dorfer Games OÜ, Poznyaki, Kyiv, 02068, Ukraine</p>
-              <p>Reg. No.: 14854266</p>
-              <p>VAT Number: EE102288380</p>
-            </div>
-            <div className="container-flex__icons">
-              <ButtonComponent
-                style={{
-                  color: "rgb(255, 255, 255)",
-                }}
-                type={"big"}
-                icon={AppleIcon}
-                mode={"dark"}
-                widthBtn={170}
-              >
-                App Store
-              </ButtonComponent>
-              <ButtonComponent
-                style={{
-                  color: "rgb(255, 255, 255)",
-                }}
-                type={"big"}
-                icon={Linkedin}
-                mode={"dark"}
-                widthBtn={76}
-              />
-              <ButtonComponent
-                style={{
-                  color: "rgb(255, 255, 255)",
-                }}
-                type={"big"}
-                icon={Facebook}
-                mode={"dark"}
-                widthBtn={60}
-              />
-            </div>
-          </div>
-          <div className="footer__container-subtext-flex">
-            <div className="footer__container-subtext-flex_author">
-              © Dorfer Games, 2021
-            </div>
-            <div className="footer__container-subtext-flex_links">
-              <a href="/">Contact Us</a>
-              <a href="/">Privacy Policy</a>
-              <a href="/">Terms</a>
+            <div className="footer__container-subtext-flex">
+              <div className="footer__container-subtext-flex_author">
+                © Dorfer Games, 2021
+              </div>
+              <div className="footer__container-subtext-flex_links">
+                <a href="/">Contact Us</a>
+                <a href="/">Privacy Policy</a>
+                <a href="/">Terms</a>
+              </div>
             </div>
           </div>
         </div>
