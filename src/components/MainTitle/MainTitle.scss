@@ -1,10 +1,12 @@
-.section-title {
-  max-width: 490px;
+.title-main {
   text-transform: uppercase;
   font-weight: 600;
   font-size: 32px;
   line-height: 40px;
   margin-bottom: 20px;
+  @media (max-width: 960px) {
+    font-size: 24px;
+  }
   .mark {
     font-weight: 800;
     color: #17a1e6;
