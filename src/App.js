@@ -31,9 +31,17 @@ const App = (props) => {
     </svg>
   );
   return (
-    <div className="App">
+    <div style={{ display: "flex" }} className="App">
       <ButtonComponent
-        widthBtn={137}
+        widthBtn={110}
+        type={"small"}
+        icon={iconApp}
+        mode={"light"}
+      >
+        AppStore
+      </ButtonComponent>
+      <ButtonComponent
+        widthBtn={200}
         type={"big"}
         icon={iconPlay}
         mode={"dark"}
