@@ -62,16 +62,15 @@ const sectionGames = (props) => {
             </SubTitle>
           </div>
           <div className="game-button-wrapper">
-            <div className="game-button-wrapper__wrapper-btn">
-              <ButtonComponent
-                widthBtn={167}
-                type={"big"}
-                icon={iconApp}
-                mode={"light"}
-              >
-                AppStore
-              </ButtonComponent>
-            </div>
+            <ButtonComponent
+              widthBtn={167}
+              type={"big"}
+              icon={iconApp}
+              mode={"light"}
+            >
+              AppStore
+            </ButtonComponent>
+
             <ButtonComponent
               widthBtn={167}
               type={"big"}
