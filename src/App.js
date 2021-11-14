@@ -1,6 +1,6 @@
 import "./App.scss";
-import MainTitle from "./components/MainTitle/MainTitle";
 import SectionHero from "./pages/sectionHero/sectionHero";
+import SectionGames from "./pages/sectionGames/sectionGames";
 import { Route, Switch, Redirect } from "react-router";
 import Layout from "./components/hoc/Layout/Layout";
 
@@ -13,10 +13,10 @@ const App = (props) => {
             <SectionHero />
           </Route>
           <Route exact path="/sectionGames">
-            {/* <SectionGames/> */}
+            <SectionGames />
           </Route>
           <Route exact path="/sectionCareer">
-            {/* <SectionGames/> */}
+            <SectionGames />
           </Route>
 
           <Route
