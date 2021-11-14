@@ -1,5 +1,5 @@
 import "./App.scss";
-import Footer from "./components/Footer/Footer";
+// import Footer from "./components/Footer/Footer";
 import SectionCareer from "./pages/SectionCareer/SectionCareer";
 // import MainTitle from "./components/MainTitle/MainTitle";
 // import SubTitle from "./components/SubTitle/SubTitle";

@@ -4,7 +4,7 @@ const Footer = (props) => {
   const AppleIcon = (
     <svg
       style={{ width: "35px", height: "35px" }}
-      class="apple-icon"
+      className="apple-icon"
       xmlns="http://www.w3.org/2000/svg"
       width="35"
       height="35"
@@ -16,7 +16,7 @@ const Footer = (props) => {
   const Linkedin = (
     <svg
       style={{ width: "35px", height: "35px" }}
-      fill="#000000"
+      fillRule="#000000"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 50 50"
       width="35"
@@ -33,7 +33,7 @@ const Footer = (props) => {
       focusable="false"
       data-prefix="fab"
       data-icon="facebook-f"
-      class="svg-inline--fa fa-facebook-f"
+      className="svg-inline--fa fa-facebook-f"
       role="img"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 280 490"
