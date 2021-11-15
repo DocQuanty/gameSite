@@ -1,3 +1,6 @@
+.star-rating-wrapper {
+  white-space: nowrap;
+}
 .star-rating {
   display: inline;
   margin-right: 15px;
@@ -6,11 +9,9 @@ button {
   background-color: transparent;
   border: none;
   outline: none;
-  cursor: pointer;
 }
 i {
   font-size: 20px;
-  color: #17a1e6;
 }
 .on {
   color: #17a1e6;
