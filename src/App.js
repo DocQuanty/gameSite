@@ -3,6 +3,7 @@ import SectionHero from "./pages/sectionHero/sectionHero";
 import SectionGames from "./pages/sectionGames/sectionGames";
 import { Route, Switch, Redirect } from "react-router";
 import Layout from "./components/hoc/Layout/Layout";
+import SectionAbout from "./pages/SectionAbout/SectionAbout";
 
 const App = (props) => {
   return (
@@ -18,7 +19,12 @@ const App = (props) => {
           <Route exact path="/sectionCareer">
             <SectionGames />
           </Route>
-
+          <Route exact path="/sectionAbout">
+            <SectionAbout />
+          </Route>
+          <Route exact path="/sectionCareer">
+            {/* <SectionCareer /> */}
+          </Route>
           <Route
             render={() => (
               <h1
