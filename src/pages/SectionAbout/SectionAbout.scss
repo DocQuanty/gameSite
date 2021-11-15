@@ -168,6 +168,9 @@
     margin-bottom: 50px !important;
     min-height: 150px;
   }
+  @media (max-width: 500px) {
+    margin-right: 10px !important;
+  }
   p {
     &:first-child {
       color: #17a1e6;
