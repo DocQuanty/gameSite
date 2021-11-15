@@ -4,7 +4,7 @@ import SubTitle from "../../components/SubTitle/SubTitle";
 import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
 import GameListComponent from "../../components/GameListComponent/GameListComponent";
-import StartRating from "../../components/StarRaiting/StarRating";
+import StarRating from "../../components/StarRaiting/StarRating";
 
 const sectionGames = (props) => {
   // ===========записываем в переменную SVG=================
@@ -50,8 +50,7 @@ const sectionGames = (props) => {
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
             <div className="game-rate-star">
-              <StartRating setRating={5} setHover={4} />
-              <span>4.0</span>
+              <StarRating rating={5} currentRating={3} />
             </div>
           </div>
           <div className="game-text">
