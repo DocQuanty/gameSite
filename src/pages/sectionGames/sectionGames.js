@@ -50,7 +50,7 @@ const sectionGames = (props) => {
           <div className="game-name">Sorting Beads: Stencil Fill</div>
           <div className="game-rate">
             <div className="game-rate-star">
-              <StarRating rating={5} currentRating={3} />
+              <StarRating rating={5} currentRating={4} />
             </div>
           </div>
           <div className="game-text">
