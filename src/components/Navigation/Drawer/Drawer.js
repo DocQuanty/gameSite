@@ -6,8 +6,8 @@ import { NavLink } from "react-router-dom";
 const links = [
   { to: "/sectionHero", label: "Home", exact: true },
   { to: "/sectionGames", label: "Games", exact: true },
-  { to: "/AboutUs", label: "About Us", exact: true },
-  { to: "/????", label: "Career", exact: true },
+  { to: "/sectionAbout", label: "About Us", exact: true },
+  { to: "/sectionCareer", label: "Career", exact: true },
 ];
 class Drawer extends React.Component {
   onClickHandler = () => {
