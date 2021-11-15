@@ -1,22 +1,15 @@
 import "./StarRaiting.scss";
-import React, { useState } from "react";
 
 const StarRating = (props) => {
-  const [rating, setRating] = useState(4);
-  const [hover, setHover] = useState(4);
+  const rating = props.rating;
+  const hover = props.currentRating;
 
-  function test() {
-    setRating(4);
-    console.log("click");
-  }
-
-  return (
+  const RatingLayout = (
     <div className="star-rating">
-      {[...Array(5)].map((star, index) => {
+      {[...Array(rating)].map((star, index) => {
         index += 1;
         return (
           <button
-            onClick={test}
             type="button"
             key={index}
             className={index <= (hover || rating) ? "on" : "off"}
@@ -27,6 +20,12 @@ const StarRating = (props) => {
           </button>
         );
       })}
+    </div>
+  );
+  return (
+    <div className="star-rating-wrapper">
+      {RatingLayout}
+      {props.rating}
     </div>
   );
 };
