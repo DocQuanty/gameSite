@@ -4,6 +4,7 @@ import SectionGames from "./pages/sectionGames/sectionGames";
 import { Route, Switch, Redirect } from "react-router";
 import Layout from "./components/hoc/Layout/Layout";
 import SectionAbout from "./pages/SectionAbout/SectionAbout";
+import SectionCareer from "./pages/SectionCareer/SectionCareer";
 
 const App = (props) => {
   return (
@@ -16,14 +17,11 @@ const App = (props) => {
           <Route exact path="/sectionGames">
             <SectionGames />
           </Route>
-          <Route exact path="/sectionCareer">
-            <SectionGames />
-          </Route>
           <Route exact path="/sectionAbout">
             <SectionAbout />
           </Route>
           <Route exact path="/sectionCareer">
-            {/* <SectionCareer /> */}
+            <SectionCareer />
           </Route>
           <Route
             render={() => (
