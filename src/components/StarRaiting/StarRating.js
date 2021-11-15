@@ -25,7 +25,7 @@ const StarRating = (props) => {
   return (
     <div className="star-rating-wrapper">
       {RatingLayout}
-      {props.rating}
+      {props.currentRating}
     </div>
   );
 };
