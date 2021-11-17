@@ -17,7 +17,7 @@ const Header = (props) => {
             <NavLink to="/sectionGames">Games</NavLink>
           </div>
           <div className="header__menu-aboutUs">
-            <NavLink to="/sectionAboutUs">About Us</NavLink>
+            <NavLink to="/sectionAbout">About Us</NavLink>
           </div>
           <div className="header__menu-career">
             <NavLink to="/sectionCareer">Career</NavLink>
