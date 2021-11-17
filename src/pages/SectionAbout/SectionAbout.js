@@ -1,8 +1,11 @@
 import "../SectionAbout/SectionAbout.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
+import Header from "../../components/Header/Header";
+
 const sectionAbout = (props) => {
   return (
     <div className="section-about">
+      <Header />
       <div className="section-about__background">
         <div className="section-about__wrapper">
           <div className="section-about__images">
