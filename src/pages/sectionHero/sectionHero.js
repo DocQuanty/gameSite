@@ -6,7 +6,7 @@ import MainTitle from "../../components/MainTitle/MainTitle";
 const SectionHero = (props) => {
   return (
     <div className="section-hero" onWheel={props.listenOnWheelEvent}>
-      <Header paddingTop={20} marginBottom={560} />
+      <Header paddingTop={20} />
       <div className="background"></div>
       <div className="container">
         <MainTitle>
