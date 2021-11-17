@@ -6,7 +6,7 @@ const Header = (props) => {
   return (
     <div
       className="header-container"
-      style={{ width: "1000px" || props.width }}
+      style={{ maxWidth: "1000px" || props.width }}
     >
       <div
         className="header"
