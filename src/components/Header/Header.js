@@ -9,7 +9,6 @@ const Header = (props) => {
         className="header"
         style={{
           paddingTop: props.paddingTop,
-          marginBottom: props.marginBottom,
         }}
       >
         <Logo />
