@@ -4,7 +4,7 @@ import MainTitle from "../../components/MainTitle/MainTitle";
 
 const SectionHero = (props) => {
   return (
-    <div className="section-hero">
+    <div className="section-hero" onWheel={props.listenOnWheelEvent}>
       <Header />
       <div className="background"></div>
       <div className="container">
