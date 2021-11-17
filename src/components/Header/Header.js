@@ -4,7 +4,10 @@ import Logo from "./Logo/Logo";
 
 const Header = (props) => {
   return (
-    <div className="header-container">
+    <div
+      className="header-container"
+      style={{ maxWidth: "1000px" || props.width }}
+    >
       <div
         className="header"
         style={{
