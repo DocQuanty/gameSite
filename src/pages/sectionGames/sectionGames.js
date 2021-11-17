@@ -39,7 +39,7 @@ const sectionGames = (props) => {
   return (
     <div className="section-game">
       <div className="container">
-        <Header />
+        <Header paddingTop={20} width={1920} />
         <div className="section-game__title">
           <MainTitle>
             Our&nbsp;<span className="mark">Games</span>
