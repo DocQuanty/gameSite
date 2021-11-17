@@ -4,11 +4,11 @@
 .container {
   max-width: 1000px;
   margin: 0 auto;
-  margin-top: 560px;
+  padding-top: 560px;
   position: relative;
   z-index: 3;
   @media (max-width: 1000px) {
-    padding: 0 20px;
+    padding: 580px 20px;
   }
 }
 .background {
