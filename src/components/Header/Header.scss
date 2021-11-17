@@ -19,49 +19,32 @@
   }
 
   &__menu {
-    width: 210px;
-    font-weight: 500;
     margin-top: 10px;
     margin-right: 20px;
-    display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
-    justify-content: space-between;
     @media (max-width: 960px) {
       display: none;
     }
   }
-  &__menu-games {
+  &__menu-links {
+    display: flex;
     margin-right: 10px;
     a {
+      font-size: 17px;
+      font-weight: 500;
       text-decoration: none;
       color: black;
       &:hover {
         color: gray;
         transition: color 0.5s ease 0s;
       }
+    }
+    li {
+      list-style-type: none;
     }
   }
-  &__menu-aboutUs {
-    margin-right: 10px;
-    a {
-      text-decoration: none;
-      color: black;
-      &:hover {
-        color: gray;
-        transition: color 0.5s ease 0s;
-      }
-    }
-  }
-  &__menu-career {
-    margin-right: 10px;
-    a {
-      text-decoration: none;
-      color: black;
-      &:hover {
-        color: gray;
-        transition: color 0.5s ease 0s;
-      }
-    }
+  .active {
+    color: orange;
   }
 }
