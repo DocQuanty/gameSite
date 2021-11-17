@@ -2,10 +2,16 @@ import "./Header.scss";
 import { NavLink } from "react-router-dom";
 import Logo from "./Logo/Logo";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="header-container">
-      <div className="header">
+      <div
+        className="header"
+        style={{
+          paddingTop: props.paddingTop,
+          marginBottom: props.marginBottom,
+        }}
+      >
         <Logo />
         <div className="header__menu">
           <div className="header__menu-games">
