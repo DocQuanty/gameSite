@@ -5,6 +5,7 @@ import ButtonComponent from "../../components/ButtonComponent/ButtonComponent";
 import longArrow from "./Icons/longArrow.png";
 import GameListComponent from "../../components/GameListComponent/GameListComponent";
 import StarRating from "../../components/StarRaiting/StarRating";
+import Header from "../../components/Header/Header";
 
 const sectionGames = (props) => {
   // ===========записываем в переменную SVG=================
@@ -37,6 +38,7 @@ const sectionGames = (props) => {
   );
   return (
     <div className="section-game">
+      <Header />
       <div className="container">
         <div className="section-game__title">
           <MainTitle>
