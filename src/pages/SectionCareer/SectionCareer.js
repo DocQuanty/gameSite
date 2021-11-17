@@ -1,11 +1,14 @@
 import "../SectionCareer/SectionCareer.scss";
 import Maintitle from "../../components/MainTitle/MainTitle";
 import Footer from "../../components/Footer/Footer";
+import Header from "../../components/Header/Header";
 
 const SectionCareer = (props) => {
   return (
     <div className="section-career">
       <div className="section-career__wrapper">
+        <Header paddingTop={20} width={1000} />
+
         <div className="section-career__container">
           <div className="section-career__maintitle">
             <Maintitle>

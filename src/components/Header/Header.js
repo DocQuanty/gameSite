@@ -1,23 +1,27 @@
 import "./Header.scss";
+import { NavLink } from "react-router-dom";
+import Logo from "./Logo/Logo";
+
 const Header = (props) => {
   return (
-    <div className="header">
-      <div className="header__logo">
-        <a href="/">
-          <div className="header__logo-icon"></div>
-          <p className="header__logo-title">Vlados</p>
-          <p className="header__logo-postTitle">games</p>
-        </a>
-      </div>
-      <div className="header__menu">
-        <div className="header__menu-games">
-          <a href="/">Games</a>
-        </div>
-        <div className="header__menu-aboutUs">
-          <a href="/">About Us</a>
-        </div>
-        <div className="header__menu-career">
-          <a href="/">Career</a>
+    <div className="header-container" style={{ maxWidth: props.width }}>
+      <div
+        className="header"
+        style={{
+          paddingTop: props.paddingTop,
+        }}
+      >
+        <Logo />
+        <div className="header__menu">
+          <div className="header__menu-games">
+            <NavLink to="/sectionGames">Games</NavLink>
+          </div>
+          <div className="header__menu-aboutUs">
+            <NavLink to="/sectionAboutUs">About Us</NavLink>
+          </div>
+          <div className="header__menu-career">
+            <NavLink to="/sectionCareer">Career</NavLink>
+          </div>
         </div>
       </div>
     </div>
