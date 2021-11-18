@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "/gameSite/static/css/main.7550a0bd.chunk.css",
-    "main.js": "/gameSite/static/js/main.5a3463f6.chunk.js",
-    "main.js.map": "/gameSite/static/js/main.5a3463f6.chunk.js.map",
-    "runtime-main.js": "/gameSite/static/js/runtime-main.abee2c96.js",
-    "runtime-main.js.map": "/gameSite/static/js/runtime-main.abee2c96.js.map",
-    "static/js/2.5e877542.chunk.js": "/gameSite/static/js/2.5e877542.chunk.js",
-    "static/js/2.5e877542.chunk.js.map": "/gameSite/static/js/2.5e877542.chunk.js.map",
-    "index.html": "/gameSite/index.html",
-    "static/css/main.7550a0bd.chunk.css.map": "/gameSite/static/css/main.7550a0bd.chunk.css.map",
-    "static/js/2.5e877542.chunk.js.LICENSE.txt": "/gameSite/static/js/2.5e877542.chunk.js.LICENSE.txt",
-    "static/media/sectionGames.scss": "/gameSite/static/media/BubblePhone.a2887a9b.JPG",
-    "static/media/sectionHero.scss": "/gameSite/static/media/test.8dc4d502.png"
+    "main.css": "/gameSite/sectionHero/static/css/main.71e6fe06.chunk.css",
+    "main.js": "/gameSite/sectionHero/static/js/main.5a3463f6.chunk.js",
+    "main.js.map": "/gameSite/sectionHero/static/js/main.5a3463f6.chunk.js.map",
+    "runtime-main.js": "/gameSite/sectionHero/static/js/runtime-main.a91614df.js",
+    "runtime-main.js.map": "/gameSite/sectionHero/static/js/runtime-main.a91614df.js.map",
+    "static/js/2.5e877542.chunk.js": "/gameSite/sectionHero/static/js/2.5e877542.chunk.js",
+    "static/js/2.5e877542.chunk.js.map": "/gameSite/sectionHero/static/js/2.5e877542.chunk.js.map",
+    "index.html": "/gameSite/sectionHero/index.html",
+    "static/css/main.71e6fe06.chunk.css.map": "/gameSite/sectionHero/static/css/main.71e6fe06.chunk.css.map",
+    "static/js/2.5e877542.chunk.js.LICENSE.txt": "/gameSite/sectionHero/static/js/2.5e877542.chunk.js.LICENSE.txt",
+    "static/media/sectionGames.scss": "/gameSite/sectionHero/static/media/BubblePhone.a2887a9b.JPG",
+    "static/media/sectionHero.scss": "/gameSite/sectionHero/static/media/test.8dc4d502.png"
   },
   "entrypoints": [
-    "static/js/runtime-main.abee2c96.js",
+    "static/js/runtime-main.a91614df.js",
     "static/js/2.5e877542.chunk.js",
-    "static/css/main.7550a0bd.chunk.css",
+    "static/css/main.71e6fe06.chunk.css",
     "static/js/main.5a3463f6.chunk.js"
   ]
 }
