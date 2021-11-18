@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.scss";
 import App from "./App";
-import { BrowserRouter } from "react-router-dom";
+import { BrowserRouter, HashRouter } from "react-router-dom";
 // import ErrorBoundary from "./components/ErrorBaudary/ErrorBaudary";
 
 const app = (
@@ -14,7 +14,9 @@ const app = (
 );
 
 ReactDOM.render(
-  <React.StrictMode>{app}</React.StrictMode>,
+  <React.StrictMode>
+    <HashRouter>{app}</HashRouter>
+  </React.StrictMode>,
   document.getElementById("root")
 );
 

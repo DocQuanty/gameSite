@@ -11,9 +11,12 @@ const App = (props) => {
     <div className="App">
       <Layout>
         <Switch>
-          <Route path="/gameSite/sectionHero" exact component={SectionHero} />
-          <Route exact path="/gameSite/sectionGames" component={SectionGames} />
-          <Route exact path="/gameSite/sectionAbout" component={SectionAbout} />
+          <Route path="/sectionHero" exact component={SectionHero} />
+          <Route exact path="/sectionGames" component={SectionGames} />
+          <Route
+            path="https://docquanty.github.io/gameSite/sectionAbout"
+            component={SectionAbout}
+          />
           <Route exact path="/gameSite/sectionCareer">
             <SectionCareer />
           </Route>
