@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/gameSite/sectionHero/static/css/main.e93b72ba.chunk.css",
-    "main.js": "/gameSite/sectionHero/static/js/main.c84ff5b0.chunk.js",
-    "main.js.map": "/gameSite/sectionHero/static/js/main.c84ff5b0.chunk.js.map",
+    "main.js": "/gameSite/sectionHero/static/js/main.cec76668.chunk.js",
+    "main.js.map": "/gameSite/sectionHero/static/js/main.cec76668.chunk.js.map",
     "runtime-main.js": "/gameSite/sectionHero/static/js/runtime-main.a91614df.js",
     "runtime-main.js.map": "/gameSite/sectionHero/static/js/runtime-main.a91614df.js.map",
     "static/js/2.9344d44c.chunk.js": "/gameSite/sectionHero/static/js/2.9344d44c.chunk.js",
@@ -17,6 +17,6 @@
     "static/js/runtime-main.a91614df.js",
     "static/js/2.9344d44c.chunk.js",
     "static/css/main.e93b72ba.chunk.css",
-    "static/js/main.c84ff5b0.chunk.js"
+    "static/js/main.cec76668.chunk.js"
   ]
 }
