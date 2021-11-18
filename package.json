@@ -1,6 +1,6 @@
 {
   "name": "gameSite",
-  "homepage": "https://docquanty.github.io/gameSite/",
+  "homepage": "http://localhost:3000/gameSite/sectionHero",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
