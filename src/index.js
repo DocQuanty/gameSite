@@ -7,16 +7,14 @@ import { BrowserRouter, HashRouter } from "react-router-dom";
 
 const app = (
   <React.StrictMode>
-    <BrowserRouter>
+    <HashRouter>
       <App />
-    </BrowserRouter>
+    </HashRouter>
   </React.StrictMode>
 );
 
 ReactDOM.render(
-  <React.StrictMode>
-    <HashRouter>{app}</HashRouter>
-  </React.StrictMode>,
+  <React.StrictMode>{app}</React.StrictMode>,
   document.getElementById("root")
 );
 
