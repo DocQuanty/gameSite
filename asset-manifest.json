@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/gameSite/sectionHero/static/css/main.e93b72ba.chunk.css",
+    "main.css": "/gameSite/sectionHero/static/css/main.fad89344.chunk.css",
     "main.js": "/gameSite/sectionHero/static/js/main.c84ff5b0.chunk.js",
     "main.js.map": "/gameSite/sectionHero/static/js/main.c84ff5b0.chunk.js.map",
     "runtime-main.js": "/gameSite/sectionHero/static/js/runtime-main.a91614df.js",
@@ -8,7 +8,7 @@
     "static/js/2.9344d44c.chunk.js": "/gameSite/sectionHero/static/js/2.9344d44c.chunk.js",
     "static/js/2.9344d44c.chunk.js.map": "/gameSite/sectionHero/static/js/2.9344d44c.chunk.js.map",
     "index.html": "/gameSite/sectionHero/index.html",
-    "static/css/main.e93b72ba.chunk.css.map": "/gameSite/sectionHero/static/css/main.e93b72ba.chunk.css.map",
+    "static/css/main.fad89344.chunk.css.map": "/gameSite/sectionHero/static/css/main.fad89344.chunk.css.map",
     "static/js/2.9344d44c.chunk.js.LICENSE.txt": "/gameSite/sectionHero/static/js/2.9344d44c.chunk.js.LICENSE.txt",
     "static/media/sectionGames.scss": "/gameSite/sectionHero/static/media/BubblePhone.a2887a9b.JPG",
     "static/media/sectionHero.scss": "/gameSite/sectionHero/static/media/test.8dc4d502.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.a91614df.js",
     "static/js/2.9344d44c.chunk.js",
-    "static/css/main.e93b72ba.chunk.css",
+    "static/css/main.fad89344.chunk.css",
     "static/js/main.c84ff5b0.chunk.js"
   ]
 }
