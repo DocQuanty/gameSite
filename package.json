@@ -1,5 +1,6 @@
 {
-  "name": "weatherposition",
+  "name": "gameSite",
+  "homepage": "https://docquanty.github.io/gameSite/sectionHero",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

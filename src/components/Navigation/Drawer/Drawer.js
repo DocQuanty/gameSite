@@ -4,10 +4,14 @@ import BackDrop from "../../UI/BackDrop/BackDrop";
 import { NavLink } from "react-router-dom";
 
 const links = [
-  { to: "/sectionHero", label: "Home", exact: true },
-  { to: "/sectionGames", label: "Games", exact: true },
-  { to: "/sectionAboutUs", label: "About Us", exact: true },
-  { to: "/sectionCareer", label: "Career", exact: true },
+  {
+    to: "/gameSite/sectionHero",
+    label: "Home",
+    exact: true,
+  },
+  { to: "/gameSite/sectionGames", label: "Games", exact: true },
+  { to: "/gameSite/sectionAbout", label: "About Us", exact: true },
+  { to: "/gameSite/sectionCareer", label: "Career", exact: true },
 ];
 class Drawer extends React.Component {
   onClickHandler = () => {

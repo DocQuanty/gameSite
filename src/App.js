@@ -11,16 +11,10 @@ const App = (props) => {
     <div className="App">
       <Layout>
         <Switch>
-          <Route exact path="/sectionHero">
-            <SectionHero />
-          </Route>
-          <Route exact path="/sectionGames">
-            <SectionGames />
-          </Route>
-          <Route exact path="/sectionAbout">
-            <SectionAbout />
-          </Route>
-          <Route exact path="/sectionCareer">
+          <Route path="/gameSite/sectionHero" exact component={SectionHero} />
+          <Route exact path="/gameSite/sectionGames" component={SectionGames} />
+          <Route exact path="/gameSite/sectionAbout" component={SectionAbout} />
+          <Route exact path="/gameSite/sectionCareer">
             <SectionCareer />
           </Route>
           <Route
