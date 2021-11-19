@@ -39,7 +39,8 @@
 
       &:hover {
         transition: color 0.5s ease-in 0s;
-        color: rgb(75, 75, 75);
+        color: rgb(136, 136, 136);
+        opacity: 1 !important;
       }
     }
     li {
